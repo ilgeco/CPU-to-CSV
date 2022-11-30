@@ -6,7 +6,7 @@ use core::time;
 use std::thread;
 
 
-/// Dump Cpu usage every T (default 100) milliseconds
+/// Dump Cpu usage every T (default 300) milliseconds
 /// 
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
