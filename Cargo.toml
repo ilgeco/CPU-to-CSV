@@ -1,0 +1,17 @@
+[package]
+name = "cpu_csv_dumper"
+version = "0.8.0"
+edition = "2021"
+authors = ["Gabriele Magnani"]
+license = "MIT"
+
+[features]
+default = ["other"]
+other = ["clap/derive"]
+
+
+
+
+[dependencies]
+clap = "4.0.18"
+nom = "7"
