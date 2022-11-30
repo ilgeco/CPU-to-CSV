@@ -3,6 +3,7 @@ Simple utility to dump the CPU usage in CSV format
 
 ### Requirements
 Existence of */proc/stat* [only Linux OS]
+
 Read permission to */proc/stat*
 
 
